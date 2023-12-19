@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    border: 1px solid;
+    width: 30%;
+    height: 50vh;
+    margin-top: 30px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__form>h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+   
+}
+
+.login__form>input {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 24);
+    font-family: "Inter";
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.submit__btn {
+    width: 20vw;
+    padding: 10px 30px;
+    margin-top: 10px;
+    background: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Inter";
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
